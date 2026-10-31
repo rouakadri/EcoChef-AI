@@ -1,0 +1,6 @@
+{
+  "name": "EcoChef AI - Anti-Gaspillage & Cuisine Intelligente",
+  "description": "Application intelligente de lutte contre le gaspillage alimentaire : reconnaissance d'aliments par IA, gestion de stock et péremption, générateur de recettes anti-gaspi, Food Rescue et automatisations.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

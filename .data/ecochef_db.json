@@ -1,0 +1,275 @@
+{
+  "users": [
+    {
+      "userId": "user_1",
+      "name": "Camille & Alex",
+      "email": "camille.alex@ecochef.local",
+      "language": "fr",
+      "dietaryPreference": "none",
+      "householdSize": 2,
+      "n8nWebhookUrl": "https://n8n.webhook.office/ecochef-alerts",
+      "n8nEnabled": true,
+      "alertDaysBefore": 3,
+      "alertChannels": {
+        "email": true,
+        "n8nWebhook": true,
+        "browserPush": true
+      }
+    }
+  ],
+  "inventory": [
+    {
+      "id": "inv_1",
+      "userId": "user_1",
+      "name": "Yaourts nature bio",
+      "category": "dairy",
+      "quantity": 4,
+      "unit": "pieces",
+      "location": "fridge",
+      "purchaseDate": "2026-10-24",
+      "expiryDate": "2026-11-01",
+      "notes": "Pack de 4, à consommer rapidement ou en gâteau au yaourt",
+      "estimatedPrice": 2.8,
+      "imageEmoji": "🥛"
+    },
+    {
+      "id": "inv_2",
+      "userId": "user_1",
+      "name": "Tomates grappe",
+      "category": "vegetables",
+      "quantity": 500,
+      "unit": "g",
+      "location": "fridge",
+      "purchaseDate": "2026-10-26",
+      "expiryDate": "2026-11-02",
+      "notes": "Très mûres, parfaites pour coulis, shakshuka ou tarte",
+      "estimatedPrice": 2.5,
+      "imageEmoji": "🍅"
+    },
+    {
+      "id": "inv_3",
+      "userId": "user_1",
+      "name": "Filet de saumon frais",
+      "category": "meat_fish",
+      "quantity": 2,
+      "unit": "slices",
+      "location": "fridge",
+      "purchaseDate": "2026-10-29",
+      "expiryDate": "2026-10-31",
+      "notes": "Pêche durable, à cuire ce soir impérativement",
+      "estimatedPrice": 7.9,
+      "imageEmoji": "🐟"
+    },
+    {
+      "id": "inv_4",
+      "userId": "user_1",
+      "name": "Épinards frais en branches",
+      "category": "vegetables",
+      "quantity": 300,
+      "unit": "g",
+      "location": "fridge",
+      "purchaseDate": "2026-10-27",
+      "expiryDate": "2026-11-02",
+      "notes": "Légèrement flétris, délicieux poêlés avec ail et crème",
+      "estimatedPrice": 1.9,
+      "imageEmoji": "🥬"
+    },
+    {
+      "id": "inv_5",
+      "userId": "user_1",
+      "name": "Courgettes",
+      "category": "vegetables",
+      "quantity": 3,
+      "unit": "pieces",
+      "location": "fridge",
+      "purchaseDate": "2026-10-28",
+      "expiryDate": "2026-11-05",
+      "notes": "Excellentes en gratin ou velouté",
+      "estimatedPrice": 2.1,
+      "imageEmoji": "🥒"
+    },
+    {
+      "id": "inv_6",
+      "userId": "user_1",
+      "name": "Pâtes Penne Rigate",
+      "category": "grains",
+      "quantity": 1,
+      "unit": "packs",
+      "location": "pantry",
+      "purchaseDate": "2026-10-11",
+      "expiryDate": "2027-04-29",
+      "notes": "Garde-manger sec",
+      "estimatedPrice": 1.6,
+      "imageEmoji": "🍝"
+    },
+    {
+      "id": "inv_7",
+      "userId": "user_1",
+      "name": "Bananes mûres",
+      "category": "fruits",
+      "quantity": 4,
+      "unit": "pieces",
+      "location": "pantry",
+      "purchaseDate": "2026-10-25",
+      "expiryDate": "2026-11-01",
+      "notes": "Idéal banana bread, pancakes ou smoothie",
+      "estimatedPrice": 1.8,
+      "imageEmoji": "🍌"
+    },
+    {
+      "id": "inv_8",
+      "userId": "user_1",
+      "name": "Crème fraîche épaisse 30%",
+      "category": "dairy",
+      "quantity": 200,
+      "unit": "ml",
+      "location": "fridge",
+      "purchaseDate": "2026-10-25",
+      "expiryDate": "2026-11-03",
+      "notes": "Ouvert il y a 2 jours",
+      "estimatedPrice": 1.4,
+      "imageEmoji": "🥣"
+    },
+    {
+      "id": "inv_9",
+      "userId": "user_1",
+      "name": "Pain de campagne artisanal",
+      "category": "bakery",
+      "quantity": 1,
+      "unit": "pieces",
+      "location": "pantry",
+      "purchaseDate": "2026-10-28",
+      "expiryDate": "2026-11-01",
+      "notes": "Commence à durcir, parfait pour du pain perdu ou croûtons à soupe",
+      "estimatedPrice": 2.2,
+      "imageEmoji": "🥖"
+    },
+    {
+      "id": "inv_10",
+      "userId": "user_1",
+      "name": "Petits pois surgelés",
+      "category": "vegetables",
+      "quantity": 600,
+      "unit": "g",
+      "location": "freezer",
+      "purchaseDate": "2026-10-01",
+      "expiryDate": "2027-02-28",
+      "notes": "Très bonne conservation",
+      "estimatedPrice": 2,
+      "imageEmoji": "🟢"
+    }
+  ],
+  "foodRescue": [
+    {
+      "id": "rescue_1",
+      "userId": "user_neighbour_1",
+      "userName": "Sarah M.",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "userPhoneOrContact": "+33 6 12 34 56 78",
+      "title": "Caisse de pommes bio du verger",
+      "category": "fruits",
+      "quantity": "Env. 3 kg",
+      "locationNeighborhood": "Quartier des Arts (à 450 m)",
+      "expiryDate": "2026-11-06",
+      "description": "Trop de pommes récoltées chez mes grands-parents en Normandie. Variété Boskoop et Reine des Reinettes, idéales à croquer ou en compote !",
+      "status": "available",
+      "createdAt": "2026-10-30"
+    },
+    {
+      "id": "rescue_2",
+      "userId": "user_neighbour_2",
+      "userName": "Youssef B.",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "userPhoneOrContact": "youssef.b@email.com",
+      "title": "Lot de 2 briques de lait végétal avoine",
+      "category": "beverages",
+      "quantity": "2 x 1L non ouvertes",
+      "locationNeighborhood": "Centre-ville / Place de la République (à 800 m)",
+      "expiryDate": "2026-11-25",
+      "description": "Erreur de commande en drive, je ne consomme que du lait d'amande. Neuves scellées.",
+      "status": "available",
+      "createdAt": "2026-10-31"
+    },
+    {
+      "id": "rescue_3",
+      "userId": "user_neighbour_3",
+      "userName": "Léa & Thomas",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "userPhoneOrContact": "+33 6 98 76 54 32",
+      "title": "Baguettes et viennoiseries du matin",
+      "category": "bakery",
+      "quantity": "3 baguettes + 2 croissants",
+      "locationNeighborhood": "Quartier Floral (à 1.2 km)",
+      "expiryDate": "2026-11-01",
+      "description": "Reste d'un petit-déjeuner d'équipe au bureau. Tout frais de la boulangerie artisanale.",
+      "status": "reserved",
+      "createdAt": "2026-10-31",
+      "reservedBy": "Camille & Alex",
+      "reservedAt": "2026-10-31"
+    }
+  ],
+  "shoppingList": [
+    {
+      "id": "shop_1",
+      "userId": "user_1",
+      "name": "Huile d'olive extra vierge",
+      "category": "condiments",
+      "quantity": 1,
+      "unit": "l",
+      "completed": false,
+      "priority": "normal",
+      "estimatedCost": 8.5
+    },
+    {
+      "id": "shop_2",
+      "userId": "user_1",
+      "name": "Gousses d'ail",
+      "category": "vegetables",
+      "quantity": 1,
+      "unit": "packs",
+      "completed": false,
+      "priority": "urgent",
+      "estimatedCost": 1.5
+    },
+    {
+      "id": "shop_3",
+      "userId": "user_1",
+      "name": "Oeufs plein air Label Rouge",
+      "category": "dairy",
+      "quantity": 6,
+      "unit": "pieces",
+      "completed": true,
+      "priority": "normal",
+      "estimatedCost": 2.8
+    }
+  ],
+  "automationLogs": [
+    {
+      "event": "Alerte Péremption (Test n8n)",
+      "status": "simulated",
+      "targetUrl": "https://n8n.webhook.office/ecochef-alerts",
+      "itemsNotified": 7,
+      "summary": "Webhook prêt : payload n8n formaté et testé (7 aliments urgents).",
+      "id": "log_1793474790713",
+      "timestamp": "2026-10-31T19:26:30.713Z"
+    },
+    {
+      "id": "log_1",
+      "timestamp": "2026-10-31T15:26:05.495Z",
+      "event": "Alerte Péremption Quotidienne",
+      "status": "success",
+      "targetUrl": "https://n8n.webhook.office/ecochef-alerts",
+      "itemsNotified": 3,
+      "summary": "3 articles détectés à échéance ≤ 48h (Saumon, Bananes, Yaourts). Déclenchement n8n et envoi récapitulatif."
+    },
+    {
+      "id": "log_2",
+      "timestamp": "2026-10-30T15:26:05.495Z",
+      "event": "Scan Anti-Gaspi & Suggestion Recettes",
+      "status": "success",
+      "targetUrl": "https://n8n.webhook.office/ecochef-alerts",
+      "itemsNotified": 2,
+      "summary": "Génération de 2 recettes anti-gaspi basée sur les stocks et notification Telegram."
+    }
+  ]
+}
